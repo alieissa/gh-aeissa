@@ -24,6 +24,7 @@ production stylesheet in assets/built/screen.css using: npm run dev
 @import "ghost/badge.css";
 @import "ghost/pagination.css";
 @import "ghost/comments.css";
+@import "ghost/card.css";
 
 
 
@@ -36,6 +37,7 @@ html,
     flex-direction: column;
     min-height: 100vh;
     background: #ffffff;
+    font-size: 16px;
 }
 
 .gh-main {
@@ -255,4 +257,29 @@ html,
     .gh-author-meta {
         font-size: 1.6rem;
     }
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column
+}
+
+.p-1_25r {
+  padding: 1.25rem
+}
+
+.mb-0_5r {
+  margin-bottom: 0.5rem
+}
+.ml-0_25r {
+  margin-left: 0.25rem
+}
+
+.pointer {
+  cursor: pointer
+}
+
+.bordered {
+  border-bottom: 1px solid;
+  border-color: rgba(0, 0, 0, 0.05)
 }

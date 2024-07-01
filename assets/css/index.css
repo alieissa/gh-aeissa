@@ -259,6 +259,16 @@ html,
     }
 }
 
+.bold {
+  font-weight: 600;
+}
+.fs-medium {
+  font-size: 1.25rem
+}
+.primary {
+  color: rgba(103, 79, 222, .9)
+}
+
 .flex-column {
   display: flex;
   flex-direction: column
@@ -279,7 +289,36 @@ html,
   cursor: pointer
 }
 
-.bordered {
+.bordered-b {
   border-bottom: 1px solid;
   border-color: rgba(0, 0, 0, 0.05)
+}
+
+.bordered-x {
+  border: 1px solid;
+  border-color: rgba(0, 0, 0, 0.05)
+}
+
+.absolute {
+  position: absolute
+}
+
+.overflow-auto {
+  overflow: auto;
+}
+
+.top-0 {
+  top: 0
+}
+
+.bottom-0 {
+  bottom: 0
+}
+
+.h-100vh {
+  height: 100vh
+}
+
+.w-22_5r {
+  width: 22.5rem;
 }
